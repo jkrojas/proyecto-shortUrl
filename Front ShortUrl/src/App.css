@@ -1,0 +1,62 @@
+/* Estilos generales para la aplicación */
+.App {
+  text-align: center;
+  background-color: #ffe600;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+/* Estilos para el encabezado*/
+.App-header {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/*Estilo para modal de error*/
+.custom-modal .modal-content {
+  border-radius: 10px;
+}
+
+.custom-modal .modal-header, .custom-modal .modal-body, .custom-modal .modal-footer {
+  padding: 20px;
+}
+
+.custom-modal .modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.custom-modal .modal-footer {
+  border-top: none;
+}
+
+.custom-modal .btn-secondary {
+  background-color: #3483fa;
+  color: white;
+}
+
+.custom-modal .btn-secondary:hover {
+  background-color: #2968c8;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 1rem);
+}
+
+.modal {
+  overflow-y: auto;
+}
